@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EFAB512AEA42B3911239C313 /* Pods_StudyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4AB905EE7B9FE8099BD8E2 /* Pods_StudyProject.framework */; };
+		FB0D38DE280D776B007A2EA1 /* RxLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D38DD280D776B007A2EA1 /* RxLabel.swift */; };
+		FB0D38E0280D798C007A2EA1 /* RxDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D38DF280D798C007A2EA1 /* RxDemoViewController.swift */; };
+		FB0D38E2280D7C16007A2EA1 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D38E1280D7C16007A2EA1 /* RxViewController.swift */; };
 		FB1311D12786A5DC00F69DD0 /* UIDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1311D02786A5DC00F69DD0 /* UIDemoViewController.swift */; };
 		FB1311D32786B5B600F69DD0 /* DemoTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1311D22786B5B600F69DD0 /* DemoTabbarController.swift */; };
 		FB1311D52786B61D00F69DD0 /* DemoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1311D42786B61D00F69DD0 /* DemoNavigationController.swift */; };
@@ -37,6 +40,9 @@
 		07C4787BF25335CE9E80F65B /* Pods-StudyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyProject.debug.xcconfig"; path = "Target Support Files/Pods-StudyProject/Pods-StudyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		4F4AB905EE7B9FE8099BD8E2 /* Pods_StudyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C11AC231912388434B58B05 /* Pods-StudyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyProject.release.xcconfig"; path = "Target Support Files/Pods-StudyProject/Pods-StudyProject.release.xcconfig"; sourceTree = "<group>"; };
+		FB0D38DD280D776B007A2EA1 /* RxLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxLabel.swift; sourceTree = "<group>"; };
+		FB0D38DF280D798C007A2EA1 /* RxDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDemoViewController.swift; sourceTree = "<group>"; };
+		FB0D38E1280D7C16007A2EA1 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		FB1311D02786A5DC00F69DD0 /* UIDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDemoViewController.swift; sourceTree = "<group>"; };
 		FB1311D22786B5B600F69DD0 /* DemoTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTabbarController.swift; sourceTree = "<group>"; };
 		FB1311D42786B61D00F69DD0 /* DemoNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNavigationController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,16 @@
 				4F4AB905EE7B9FE8099BD8E2 /* Pods_StudyProject.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0D38DA280D4890007A2EA1 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FB0D38DF280D798C007A2EA1 /* RxDemoViewController.swift */,
+				FB0D38E1280D7C16007A2EA1 /* RxViewController.swift */,
+				FB0D38DD280D776B007A2EA1 /* RxLabel.swift */,
+			);
+			path = RxSwift;
 			sourceTree = "<group>";
 		};
 		FB1311E227871A2000F69DD0 /* 基础UI */ = {
@@ -173,6 +189,7 @@
 		FB57D43827854FF500AAC2B6 /* StudyProject */ = {
 			isa = PBXGroup;
 			children = (
+				FB0D38DA280D4890007A2EA1 /* RxSwift */,
 				FB1311E227871A2000F69DD0 /* 基础UI */,
 				FB1311E327871A3F00F69DD0 /* 滚动列表UI */,
 				FB1311E427871A8300F69DD0 /* 导航栏和Tab栏 */,
@@ -300,6 +317,7 @@
 			files = (
 				FB57D45027855FD900AAC2B6 /* UILabel.swift in Sources */,
 				FB1311E12787167800F69DD0 /* UITableViewCustom.swift in Sources */,
+				FB0D38E2280D7C16007A2EA1 /* RxViewController.swift in Sources */,
 				FB57D44E2785502800AAC2B6 /* UIView.swift in Sources */,
 				FB1311D32786B5B600F69DD0 /* DemoTabbarController.swift in Sources */,
 				FB57D45427857B6800AAC2B6 /* UIImageView.swift in Sources */,
@@ -308,6 +326,7 @@
 				FB1311DF2787152C00F69DD0 /* UICollectionView.swift in Sources */,
 				FB1311D12786A5DC00F69DD0 /* UIDemoViewController.swift in Sources */,
 				FB57D45627857F9900AAC2B6 /* UITextField.swift in Sources */,
+				FB0D38E0280D798C007A2EA1 /* RxDemoViewController.swift in Sources */,
 				FB823801278584A8002F5ED9 /* UITextView.swift in Sources */,
 				FB8238032785898C002F5ED9 /* UIScrollView.swift in Sources */,
 				FB57D43E27854FF500AAC2B6 /* ViewController.swift in Sources */,
@@ -316,6 +335,7 @@
 				FB57D43A27854FF500AAC2B6 /* AppDelegate.swift in Sources */,
 				FB67646627E1DC48009F15B4 /* UICollectionViewCustom.swift in Sources */,
 				FB57D43C27854FF500AAC2B6 /* SceneDelegate.swift in Sources */,
+				FB0D38DE280D776B007A2EA1 /* RxLabel.swift in Sources */,
 				FB57D452278572A400AAC2B6 /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

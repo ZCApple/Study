@@ -10,5 +10,7 @@ target 'StudyProject' do
   pod 'SnapKit'
   pod 'JKCategories'
   pod "PromiseKit", "~> 6.8"
+  pod 'RxSwift'
+  pod 'RxCocoa'
   
 end
